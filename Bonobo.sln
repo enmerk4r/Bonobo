@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonobo.Gh", "Bonobo.Gh\Bono
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonobo.Json", "Bonobo.Json\Bonobo.Json.csproj", "{C9C877CF-7584-42D9-8DE4-AF0AAF1B39C9}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bonobo.Py", "Bonobo.Py\Bonobo.Py.pyproj", "{323277BA-2C85-4C05-9033-F4E2DF1169EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,8 @@ Global
 		{C9C877CF-7584-42D9-8DE4-AF0AAF1B39C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9C877CF-7584-42D9-8DE4-AF0AAF1B39C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C877CF-7584-42D9-8DE4-AF0AAF1B39C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323277BA-2C85-4C05-9033-F4E2DF1169EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323277BA-2C85-4C05-9033-F4E2DF1169EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

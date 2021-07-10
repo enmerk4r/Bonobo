@@ -43,6 +43,9 @@
       <HintPath>..\..\..\..\..\..\Program Files\Rhino 7\Plug-ins\Grasshopper\Grasshopper.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="RhinoCommon">
       <HintPath>..\..\..\..\..\..\Program Files\Rhino 7\System\RhinoCommon.dll</HintPath>
       <Private>False</Private>
@@ -57,7 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bonobo.GhInfo.cs" />
+    <Compile Include="Geometry\SerializeObject - Copy.cs" />
     <Compile Include="Geometry\SerializeObject.cs" />
+    <Compile Include="Geometry\TranslateRigidBodyMesh.cs" />
     <Compile Include="Goo\GH_BlenderScene.cs" />
     <Compile Include="Goo\IBlenderWrapperGoo.cs" />
     <Compile Include="Params\BlenderSceneParam.cs" />
@@ -67,7 +72,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Geometry\TranslateMesh.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bonobo.Blender\Bonobo.Blender.csproj">
       <Project>{bbb7e98b-7cca-4748-ae24-26be348fa513}</Project>

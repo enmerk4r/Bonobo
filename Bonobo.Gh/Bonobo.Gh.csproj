@@ -60,7 +60,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bonobo.GhInfo.cs" />
-    <Compile Include="Geometry\SerializeObject - Copy.cs" />
+    <Compile Include="Geometry\LoadFrame.cs" />
+    <Compile Include="Geometry\SerializeObjects.cs" />
     <Compile Include="Geometry\SerializeObject.cs" />
     <Compile Include="Geometry\TranslateRigidBodyMesh.cs" />
     <Compile Include="Goo\GH_BlenderScene.cs" />

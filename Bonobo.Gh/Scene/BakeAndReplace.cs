@@ -48,7 +48,7 @@ namespace Bonobo.Gh.Scene
         /// <param name="DA">The DA object is used to retrieve from inputs and store in outputs.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
-            this.Message = "WARNING: This component will delete all geometry\n in the specified layer";
+            this.Message = "WARNING:\nThis component will delete all geometry\n in the specified layer";
 
             List<Mesh> meshes = new List<Mesh>();
             string layer = string.Empty;
